@@ -9,15 +9,24 @@ export default function Home() {
         <h1 className='fluid-text-3xl font-extrabold tracking-tight mb-4 text-primary'>{cvData.name}</h1>
         <p className='fluid-text-2xl text-muted-foreground mb-8'>{cvData.title}</p>
       </section>
-      <section id='about' className='pb-20'>
+      <section id='about' className='pb-10'>
         <h2 className='fluid-text-2xl font-bold mb-8 text-primary'>About Me</h2>
         <Card className='border-none shadow-none'>
           <CardHeader>
-            <CardTitle className='text-2xl'>{cvData.aboutMe.split('.')[0]}</CardTitle>
-            <CardDescription className='text-xl'>{cvData.aboutMe.split('.')[1]}</CardDescription>
+            <CardTitle className='text-2xl'>{cvData.teamwork.split('.')[0]}</CardTitle>
+            <CardDescription className='text-xl'>{cvData.teamwork.split('.')[1]}</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>{cvData.aboutMe}</p>
+            {cvData.aboutMe.map((section, index) => (
+              <div key={index} className='mb-4'>
+                <h3 className='fluid-text-xl font-bold mb-2'>{section.sectionTitle}</h3>
+                {section.content.split('.').map((sentence, index) => (
+                  <p key={index} className='text-justify indent-2'>
+                    {sentence.trim()}.
+                  </p>
+                ))}
+              </div>
+            ))}
           </CardContent>
         </Card>
       </section>

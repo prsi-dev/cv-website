@@ -17,7 +17,7 @@
     { "language": "English", "level": "Fluent" },
     { "language": "German", "level": "Beginner" }
   ],
-  "aboutMe": "Product-focused Full-Stack Engineer with a frontend emphasis, I like combining strategic planning with top technical and aesthetic execution. Committed to UX/UI requirements, performance, accessibility, and passionate about writing clean, readable, tested, and scalable code.Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
+  "teamwork": "Product-focused Full-Stack Engineer with a frontend emphasis, I like combining strategic planning with top technical and aesthetic execution. Committed to UX/UI requirements, performance, accessibility, and passionate about writing clean, readable, tested, and scalable code.Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
   "skills": {
     "frontend": ["TypeScript", "JavaScript", "React", "Next.js", "Remix", "Redux", "GraphQL", "Prisma ORM"],
     "backend": ["Node.js", "Express", "NestJS", "MongoDB", "PostgreSQL", "Neo4j"],
@@ -33,7 +33,24 @@
       "Storybook"
     ]
   },
-  "teamwork": "Focused teamwork player, committed to owning, leading, and developing features from scratch. Dedicated to meeting deadlines and sprint goals. I enjoy working closely with Product Managers and Designers to create rich features from discovery to delivery.",
+  "aboutMe": [
+    {
+      "sectionTitle": "Introduction Focus and Expertise",
+      "content": "I specialize in React, NextJs, TypeScript, REST and GraphQL, but I'm also comfortable working with various JavaScript frontend and backend frameworks like Express and Nest. With a blend of technical skills and practical experience across various industries, I focus on delivering functional and high-quality software solutions tailored to business needs."
+    },
+    {
+      "sectionTitle": "Early Journey",
+      "content": "My coding journey began seven years ago when I built my first photography blog using HTML and Markdown, eventually diving into JavaScript. This curiosity led me to pursue a career as a Software Developer."
+    },
+    {
+      "sectionTitle": "Education and Skill Development",
+      "content": "During my early years, I worked with platforms like WordPress and Shopify for e-commerce. To deepen my Front-End skills, I attended the Upgrade Hub bootcamp, where I learned to build Single Page Applications using Angular and React and developed APIs and backend systems with Node and Express."
+    },
+    {
+      "sectionTitle": "Professional Experience",
+      "content": "Most recently, I worked as a Software Developer at the Alexander von Humboldt Institute for Internet and Society, where I developed a consent agent for managing cookie preferences and conducted A/B testing to evaluate design impacts. Before that, I contributed to Hashtag-You, building and optimizing e-commerce websites for different markets, improving checkout flows, and integrating custom services. At Unea, I was involved in setting up project architectures from scratch and implementing a variety of app features for SaaS applications. My background also includes freelance work as a web developer and several years managing and developing e-commerce solutions for Style Aristos."
+    }
+  ],
   "experience": [
     {
       "position": "Software Developer",
@@ -96,7 +113,7 @@
       "position": "E-Commerce Manager",
       "company": "Style Aristos S.L",
       "location": "Oviedo",
-      "period": "2010 - 2020",
+      "period": "2016 - 2019",
       "description": "Managed the company website and WooCommerce marketplace. Responsibilities included SEO optimization, stock management, and generating sales reports. This role marked the beginning of my web development journey, where I started using HTML, CSS, and JavaScript in a professional environment.",
       "techStack": ["WordPress", "WooCommerce", "HTML", "CSS", "JavaScript", "SEO"]
     }
