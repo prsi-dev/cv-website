@@ -3,11 +3,11 @@
 import React, { useRef } from 'react';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import Autoplay from 'embla-carousel-autoplay';
-import { FaReact, FaNodeJs, FaShopify } from 'react-icons/fa';
-import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiTypescript, SiNestjs } from 'react-icons/si';
 import { GrGraphQl } from 'react-icons/gr';
 import { DiPostgresql } from 'react-icons/di';
+import { SiTypescript, SiNestjs } from 'react-icons/si';
+import { FaReact, FaShopify, FaNodeJs } from 'react-icons/fa';
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 
 const technologies = [
   { name: 'React', logo: <FaReact /> },
