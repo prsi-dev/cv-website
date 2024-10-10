@@ -1,0 +1,104 @@
+{
+  "name": "Pedro Rodríguez Suárez-Infiesta",
+  "title": "Software Developer",
+  "education": [
+    {
+      "institution": "Arts School of Oviedo",
+      "degree": "Photography Sup Tech"
+    },
+    {
+      "institution": "UpgradeHub Bootcamp",
+      "location": "Madrid",
+      "year": 2020
+    }
+  ],
+  "languages": [
+    { "language": "Spanish", "level": "Native" },
+    { "language": "English", "level": "Fluent" },
+    { "language": "German", "level": "Beginner" }
+  ],
+  "aboutMe": "Product-focused Full-Stack Engineer with a frontend emphasis, I like combining strategic planning with top technical and aesthetic execution. Committed to UX/UI requirements, performance, accessibility, and passionate about writing clean, readable, tested, and scalable code.Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
+  "skills": {
+    "frontend": ["TypeScript", "JavaScript", "React", "Next.js", "Remix", "Redux", "GraphQL", "Prisma ORM"],
+    "backend": ["Node.js", "Express", "NestJS", "MongoDB", "PostgreSQL", "Neo4j"],
+    "other": [
+      "REST APIs",
+      "Component Libraries (Material-UI, Ant Design, Tailwind CSS, Radix)",
+      "Shopify",
+      "Shopify Liquid",
+      "WordPress",
+      "CI/CD",
+      "Unit Testing",
+      "E2E Testing",
+      "Storybook"
+    ]
+  },
+  "teamwork": "Focused teamwork player, committed to owning, leading, and developing features from scratch. Dedicated to meeting deadlines and sprint goals. I enjoy working closely with Product Managers and Designers to create rich features from discovery to delivery.",
+  "experience": [
+    {
+      "position": "Software Developer",
+      "company": "Law and Innovation Technology, Alexander von Humboldt Institute for Internet and Society",
+      "location": "Berlin",
+      "period": "April 2024 - September 2024",
+      "description": "An academic spin-off and research project. Developed a consent agent and cookie banner (initially integrated in a browser extension) that lets consumers manage their cookie consent across the web. Conducted a quantitative A/B user test with 11 groups using different design combinations  and to measure how this differences impact the users consent rates.",
+      "techStack": [
+        "Monorepo Architecture (Turborepo)",
+        "TypeScript",
+        "React",
+        "Redux",
+        "Nest.js",
+        "Tailwind CSS",
+        "Plasmo (Browser Extension Framework)",
+        "Chrome APIs",
+        "Selenium",
+        "Jest",
+        "React Testing Library",
+        "Storybook"
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "company": "Hashtag-You",
+      "location": "Berlin",
+      "period": "September 2023 - March 2024",
+      "description": "Web development of e-commerce websites for DE, FR and IT markets. Led improvements and custom implementations  over the shopping cart and checkout, enhancing conversion rates.Implemented of new layouts in Product Detail Pages and Landing Pages for product launches.Integrated new Shopify Apps and custom services.",
+      "techStack": ["Shopify Storefronts", "Liquid (Shopify)", "React", "Remix", "Shopify Apps", "SCSS"]
+    },
+    {
+      "position": "Software Developer",
+      "company": "Unea",
+      "location": "Berlin",
+      "period": "August 2021 - July 2023",
+      "description": "Set up project architecture from day 0, including CI/CD environments, pipelines, and deployments. Implemented a broad set of app features, from dashboards to CRUD inventory operations, design iterations, new library integrations, and scheduling and event management.",
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "GraphQL",
+        "Neo4j",
+        "MongoDB",
+        "Cypress",
+        "Jest",
+        "React Testing Library",
+        "Storybook",
+        "CSS modules"
+      ]
+    },
+    {
+      "position": "Freelance Web Developer",
+      "period": "2021",
+      "company": "Saenguin (Retail)",
+      "location": "Berlin",
+      "description": "E-commerce developer and designer",
+      "techStack": ["Shopify", "Liquid", "CSS"]
+    },
+    {
+      "position": "E-Commerce Manager",
+      "company": "Style Aristos S.L",
+      "location": "Oviedo",
+      "period": "2010 - 2020",
+      "description": "Managed the company website and WooCommerce marketplace. Responsibilities included SEO optimization, stock management, and generating sales reports. This role marked the beginning of my web development journey, where I started using HTML, CSS, and JavaScript in a professional environment.",
+      "techStack": ["WordPress", "WooCommerce", "HTML", "CSS", "JavaScript", "SEO"]
+    }
+  ]
+}
