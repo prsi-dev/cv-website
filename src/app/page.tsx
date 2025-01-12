@@ -21,7 +21,7 @@ export default function Home() {
               <div key={index} className='mb-4'>
                 <h3 className='fluid-text-xl font-bold mb-2'>{section.sectionTitle}</h3>
                 {section.content.split('.').map((sentence, index) => (
-                  <p key={index} className='text-justify indent-2'>
+                  <p key={index} className='text-justify'>
                     {sentence.trim()}.
                   </p>
                 ))}
@@ -39,7 +39,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <ul className='pl-5 space-y-2'>
-                {cvData.skills.frontend.map((skill) => (
+                {cvData.skills.frontend.map(skill => (
                   <li key={skill}>{skill}</li>
                 ))}
               </ul>
@@ -51,7 +51,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <ul className='pl-5 space-y-2'>
-                {cvData.skills.backend.map((skill) => (
+                {cvData.skills.backend.map(skill => (
                   <li key={skill}>{skill}</li>
                 ))}
               </ul>
@@ -76,7 +76,7 @@ export default function Home() {
               <p className='mb-4'>{exp.description}</p>
               <p className='font-semibold text-primary'>Tech Stack:</p>
               <ul className='pl-5 space-y-1'>
-                {exp.techStack.map((tech) => (
+                {exp.techStack.map(tech => (
                   <li key={tech}>{tech}</li>
                 ))}
               </ul>

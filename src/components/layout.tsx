@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
         </div>
       </header>
-      <main className='flex-1'>{children}</main>
+      <main className='flex-1 bg-background'>{children}</main>
       <footer className='py-6 md:px-8 md:py-0'>
         <div className='container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row'>
           <p className='text-center text-sm leading-loose   md:text-left'>

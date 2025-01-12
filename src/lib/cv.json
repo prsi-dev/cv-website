@@ -17,7 +17,7 @@
     { "language": "English", "level": "Fluent" },
     { "language": "German", "level": "Beginner" }
   ],
-  "teamwork": "Product-focused Full-Stack Engineer with a frontend emphasis, I like combining strategic planning with top technical and aesthetic execution. Committed to UX/UI requirements, performance, accessibility, and passionate about writing clean, readable, tested, and scalable code.Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
+  "teamwork": "Product-focused Full-Stack Engineer with a frontend emphasis, I like combining strategic planning with top technical and aesthetic execution. Committed to UX/UI requirements, performance, accessibility, and passionate about writing clean, readable, tested, and scalable code. Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
   "skills": {
     "frontend": ["TypeScript", "JavaScript", "React", "Next.js", "Remix", "Redux", "GraphQL", "Prisma ORM"],
     "backend": ["Node.js", "Express", "NestJS", "MongoDB", "PostgreSQL", "Neo4j"],
@@ -36,19 +36,19 @@
   "aboutMe": [
     {
       "sectionTitle": "Introduction Focus and Expertise",
-      "content": "I specialize in React, NextJs, TypeScript, REST and GraphQL, but I'm also comfortable working with various JavaScript frontend and backend frameworks like Express and Nest. With a blend of technical skills and practical experience across various industries, I focus on delivering functional and high-quality software solutions tailored to business needs."
+      "content": "I specialize in React, NextJs, TypeScript, REST and GraphQL, but I'm also comfortable working with various JavaScript frontend and backend frameworks like Remix or Vue on the frontend and Node Express and Nest on the backend. With a blend of technical skills and practical experience across various industries, I focus on delivering functional and high-quality software solutions tailored to business needs"
     },
     {
       "sectionTitle": "Early Journey",
-      "content": "My coding journey began seven years ago when I built my first photography blog using HTML and Markdown, eventually diving into JavaScript. This curiosity led me to pursue a career as a Software Developer."
+      "content": "My coding journey began around 2014 when I built my first photography blog using HTML and Markdown with Ghost. In 2016, I started working with WordPress to develop and maintain e-commerce websites, gradually learning JavaScript and web technologies. This curiosity led me to pursue a career as a Software Developer"
     },
     {
       "sectionTitle": "Education and Skill Development",
-      "content": "During my early years, I worked with platforms like WordPress and Shopify for e-commerce. To deepen my Front-End skills, I attended the Upgrade Hub bootcamp, where I learned to build Single Page Applications using Angular and React and developed APIs and backend systems with Node and Express."
+      "content": "During my early years, I worked with platforms like WordPress and Shopify for e-commerce. To strengthen my Front-End skills, I attended the Upgrade Hub bootcamp during 2020, where I learned to build Single Page Applications and websites using Angular and React and developed APIs and backend systems with Node and Express"
     },
     {
       "sectionTitle": "Professional Experience",
-      "content": "Most recently, I worked as a Software Developer at the Alexander von Humboldt Institute for Internet and Society, where I developed a consent agent for managing cookie preferences and conducted A/B testing to evaluate design impacts. Before that, I contributed to Hashtag-You, building and optimizing e-commerce websites for different markets, improving checkout flows, and integrating custom services. At Unea, I was involved in setting up project architectures from scratch and implementing a variety of app features for SaaS applications. My background also includes freelance work as a web developer and several years managing and developing e-commerce solutions for Style Aristos."
+      "content": "Most recently, I worked as a Software Developer at the Alexander von Humboldt Institute for Internet and Society, where I took part in the creation of a Consent Agent for managing data privacy and cookie preferences, to then conduct A/B testing with multiple groups and variants to evaluate design and research theories. Before that, I contributed to Hashtag-You, building and optimizing e-commerce websites for different markets, improving cart and checkout flows, and integrating custom services. At Unea, I was involved in setting up project architectures from scratch and implementing a variety of app features for SaaS applications. My background also includes freelance work as a web developer and several years developing and managing e-commerce websites for Style Aristos among others"
     }
   ],
   "experience": [
@@ -56,8 +56,8 @@
       "position": "Software Developer",
       "company": "Law and Innovation Technology, Alexander von Humboldt Institute for Internet and Society",
       "location": "Berlin",
-      "period": "April 2024 - September 2024",
-      "description": "An academic spin-off and research project. Developed a consent agent and cookie banner (initially integrated in a browser extension) that lets consumers manage their cookie consent across the web. Conducted a quantitative A/B user test with 11 groups using different design combinations  and to measure how this differences impact the users consent rates.",
+      "period": "April 2024 - December 2024",
+      "description": "Developed a Consent Agent and Cookie Banner (integrated into a browser extension) to let consumers manage cookie consent across the web. Conducted a quantitative A/B user test with 11 groups using different design combinations to measure impact on consent rates. Collaborated with university, legal experts, and researchers to align technical solutions to support academic theories about data privacy and consent.",
       "techStack": [
         "Monorepo Architecture (Turborepo)",
         "TypeScript",
@@ -78,7 +78,7 @@
       "company": "Hashtag-You",
       "location": "Berlin",
       "period": "September 2023 - March 2024",
-      "description": "Web development of e-commerce websites for DE, FR and IT markets. Led improvements and custom implementations  over the shopping cart and checkout, enhancing conversion rates.Implemented of new layouts in Product Detail Pages and Landing Pages for product launches.Integrated new Shopify Apps and custom services.",
+      "description": "Developed e-commerce websites for DE, FR, and IT markets, focusing on performance and usability. Led improvements and custom implementations for the shopping cart and checkout flows, enhancing conversion rates. Designed and implemented new layouts for Product Detail Pages and Landing Pages. Integrated Shopify Apps and custom services for streamlined business processes.",
       "techStack": ["Shopify Storefronts", "Liquid (Shopify)", "React", "Remix", "Shopify Apps", "SCSS"]
     },
     {
@@ -86,7 +86,7 @@
       "company": "Unea",
       "location": "Berlin",
       "period": "August 2021 - July 2023",
-      "description": "Set up project architecture from day 0, including CI/CD environments, pipelines, and deployments. Implemented a broad set of app features, from dashboards to CRUD inventory operations, design iterations, new library integrations, and scheduling and event management.",
+      "description": "Contributed extensively to project architecture setup, including CI/CD environments, pipelines, and deployments. Progressed from Junior to Mid-Level Developer by owning complex features and demonstrating leadership in feature delivery. Built app features such as dashboards, CRUD inventory operations, and event management solutions. Refined UX/UI design through iterative collaboration with stakeholders and designers.",
       "techStack": [
         "TypeScript",
         "React",
@@ -102,19 +102,19 @@
       ]
     },
     {
-      "position": "Freelance Web Developer",
+      "position": "Freelance E-commerce Web Developer",
+      "company": "Saenguin and Sensatia",
       "period": "2021",
-      "company": "Saenguin (Retail)",
       "location": "Berlin",
-      "description": "E-commerce developer and designer",
-      "techStack": ["Shopify", "Liquid", "CSS"]
+      "description": "Collaborated designing and developing e-commerce websites for this two brands; a women's suits brand and a sustainable cosmetics brand based in Bali, ensuring a visually appealing and functional user experience.",
+      "techStack": ["Shopify", "Liquid", "CSS", "React", "Gatsby"]
     },
     {
-      "position": "E-Commerce Manager",
+      "position": "E-Commerce Photographer and Developer",
       "company": "Style Aristos S.L",
       "location": "Oviedo",
       "period": "2016 - 2019",
-      "description": "Managed the company website and WooCommerce marketplace. Responsibilities included SEO optimization, stock management, and generating sales reports. This role marked the beginning of my web development journey, where I started using HTML, CSS, and JavaScript in a professional environment.",
+      "description": "Developed and managed the company website and WooCommerce marketplace, including content, SEO optimization, stock management, and generating sales reports. Discovered my passion about web development through this role, gaining experience with WordPress, WooCommerce, and JavaScript.",
       "techStack": ["WordPress", "WooCommerce", "HTML", "CSS", "JavaScript", "SEO"]
     }
   ]
