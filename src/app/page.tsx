@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 export default function Home() {
   return (
     <div className='container mx-auto px-4 py-8 max-w-screen-md bg-background text-foreground'>
-      <section id='hero' className='pt-10 md:pb-20'>
+      <section id='hero' className='pt-10 md:pb-12'>
         <h1 className='fluid-text-3xl font-extrabold tracking-tight mb-4 text-primary'>{cvData.name}</h1>
         <p className='fluid-text-2xl text-muted-foreground mb-8'>{cvData.title}</p>
       </section>
@@ -60,7 +60,6 @@ export default function Home() {
         </div>
         <TechCarousel />
       </section>
-
       <section id='experience' className='pb-20'>
         <h2 className='fluid-text-2xl font-bold mb-8 text-primary'>Experience</h2>
         {cvData.experience.map((exp, index) => (
@@ -73,7 +72,13 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className='text-muted-foreground mb-4'>{exp.period}</p>
-              <p className='mb-4'>{exp.description}</p>
+              <ul className='list-disc pl-5 space-y-2 mb-4'>
+                {exp.description?.map((sentence, index) => (
+                  <li key={index} className='list-disc'>
+                    {sentence}
+                  </li>
+                ))}
+              </ul>
               <p className='font-semibold text-primary'>Tech Stack:</p>
               <ul className='pl-5 space-y-1'>
                 {exp.techStack.map(tech => (

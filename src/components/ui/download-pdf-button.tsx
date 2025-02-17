@@ -4,18 +4,16 @@ import { Button } from '@/components/ui/button';
 
 export default function DownloadPDFButton() {
   const downloadPDF = () => {
-    console.log('download pdf');
-
-    fetch('/api/download-cv') // Ensure this endpoint matches your server setup
-      .then((response) => response.blob())
-      .then((blob) => {
+    fetch('/api/download-cv')
+      .then(response => response.blob())
+      .then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
         const alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'pedro-rodriguez-cv.pdf'; // Change this to the desired file name
+        alink.download = 'pedro-rodriguez-cv.pdf';
         alink.click();
       })
-      .catch((error) => console.error('Error downloading the file:', error));
+      .catch(error => console.error('Error downloading the file:', error));
   };
 
   return (
