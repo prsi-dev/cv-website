@@ -65,7 +65,7 @@ export function AboutSection({ teamwork, aboutMe }: AboutSectionProps) {
                 {section.content.split('.').map(
                   (sentence, idx) =>
                     sentence.trim() && (
-                      <p key={idx} className='text-justify text-lg'>
+                      <p key={idx} className='text-justify'>
                         {sentence.trim()}.
                       </p>
                     ),

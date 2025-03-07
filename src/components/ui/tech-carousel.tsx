@@ -45,7 +45,7 @@ export function TechCarousel() {
                   <div className='bg-background/50 rounded-full p-3 mb-2'>
                     <LogoComponent className='w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-primary' />
                   </div>
-                  <span className='text-xs sm:text-sm text-center font-medium'>{tech.name}</span>
+                  <span className='text-sm sm:text-sm text-center font-medium font-heading'>{tech.name}</span>
                 </div>
               </CarouselItem>
             );

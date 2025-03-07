@@ -37,7 +37,7 @@ export function Hero() {
     () => [
       'text-blue-500', // TypeScript
       'text-cyan-500', // React
-      'text-black', // Next.js
+      'text-black dark:text-white', // Next.js
       'text-green-500', // Node.js
       'text-pink-500', // GraphQL
       'text-purple-600', // Redux

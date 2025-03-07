@@ -73,3 +73,14 @@
     font-size: clamp(1.125rem, 2.5vw, 1.25rem);
   }
 }
+p,
+li {
+  font-size: 18px;
+}
+/* Mobile text size adjustments */
+@media (max-width: 640px) {
+  p,
+  li {
+    font-size: 20px;
+  }
+}

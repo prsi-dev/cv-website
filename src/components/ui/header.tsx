@@ -1,11 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail } from 'lucide-react';
 import { ThemeToggle } from './theme-toogle';
-import { Button } from '@/components/ui/button';
 import DownloadPDFButton from './download-pdf-button';
-import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 
 export function Header() {
