@@ -25,26 +25,33 @@ export function TechCarousel() {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true, stopOnFocusIn: true }));
 
   return (
-    <Carousel
-      className='w-full max-w-xs mx-auto'
-      plugins={[plugin.current]}
-      opts={{
-        align: 'center',
-        loop: true,
-      }}
-    >
-      <CarouselContent>
-        {technologies.map((tech, index) => {
-          const LogoComponent = tech.logo.type;
-          return (
-            <CarouselItem key={index} className='md:basis-1/2 lg:basis-1/3'>
-              <div className='p-1 mx-3'>
-                <LogoComponent className='w-16 h-16 object-contain' />
-              </div>
-            </CarouselItem>
-          );
-        })}
-      </CarouselContent>
-    </Carousel>
+    <div className='w-full mt-8 overflow-hidden'>
+      <Carousel
+        className='w-full'
+        plugins={[plugin.current]}
+        opts={{
+          align: 'start',
+          loop: true,
+          dragFree: true,
+          containScroll: 'trimSnaps',
+        }}
+      >
+        <CarouselContent className='-ml-2 md:-ml-4'>
+          {technologies.map((tech, index) => {
+            const LogoComponent = tech.logo.type;
+            return (
+              <CarouselItem key={index} className='pl-2 md:pl-4 basis-1/4 sm:basis-1/5 md:basis-1/6 lg:basis-1/8'>
+                <div className='flex flex-col items-center justify-center p-2 h-full'>
+                  <div className='bg-background/50 rounded-full p-3 mb-2'>
+                    <LogoComponent className='w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-primary' />
+                  </div>
+                  <span className='text-xs sm:text-sm text-center font-medium'>{tech.name}</span>
+                </div>
+              </CarouselItem>
+            );
+          })}
+        </CarouselContent>
+      </Carousel>
+    </div>
   );
 }

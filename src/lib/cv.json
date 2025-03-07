@@ -5,7 +5,8 @@
     {
       "institution": "Arts School of Oviedo",
       "degree": "Photography and Design Arts",
-      "location": "Oviedo, Asturias"
+      "location": "Oviedo, Asturias",
+      "period": "Sept 2014 - Jun 2017"
     },
     {
       "institution": "UpgradeHub Bootcamp",
@@ -25,7 +26,7 @@
     },
     {
       "language": "German",
-      "level": "Beginner"
+      "level": "Conversational"
     }
   ],
   "teamwork": "Software Developer with deep expertise in architecting, developing, and scaling high-traffic e-commerce websites and intense data-driven web applications using technologies based on React, Node and TypeScript. I am passionate about creating exceptional user experiences and fostering a culture of innovation, continuous improvement, and thorough documentation. Focused team player dedicated to owning, leading, and developing features from scratch while meeting deadlines and sprint goals. Enjoy collaborating closely with Product Managers and Designers to create rich features from discovery to delivery.",
@@ -94,11 +95,11 @@
   "aboutMe": [
     {
       "sectionTitle": "Early Journey",
-      "content": "My coding journey began around 2010 when I built my first photography blog using HTML and Markdown with Ghost to showcase my artwork and diaries. There is started to be curious about web development and I slowly gained knowledge about how modern web applications work. In 2016, I started working with WordPress to manage content, develop and maintain e-commerce websites, gradually learning JavaScript and web technologies like CSS and some PHP. Then I started to gain passion to all things around the web this curiosity led me to and to strengthen my Front-End skills, I attended the Upgrade Hub bootcamp during 2020, where I learned to build Single Page Applications and websites using Angular and React and developed APIs and backend systems with Node and Express. From that moment on, I decided to pursue a career as a Software Developer."
+      "content": "With a background in photography , video and graphic design, I started to gain interest in website technologies and web development around 2010 when I built my first photography blog using HTML and Markdown with Ghost to showcase my artwork and diaries. Then is started to gain knowledge in languages like HTML, CSS, JavaScript and PHP, and understanding more about how modern web applications work. In 2016, I started working with WordPress to manage content, develop and maintain e-commerce websites, and gradually improving my skills in web technologies. Later, I started to transform this curiosity to a passion to all things around the web, this passion led me to and to strengthen my Front-End skills, I attended the Upgrade Hub bootcamp during 2020, where I learned to build Single Page Applications and websites using Angular and React and developed APIs and backend systems with Node and Express. From that moment on, I decided to pursue a career as a Software Developer."
     },
     {
       "sectionTitle": "Professional Experience",
-      "content": "Most recently, I worked as a Software Developer at the Alexander von Humboldt Institute, where I architected micro-frontend solutions and browser extensions for privacy management, conducting A/B testing focusing on consent conversion rates and optimizing user experiences. Previously at Hashtag-You, I focused on optimizing e-commerce platforms, improving performance and implementing features that enhanced conversion rates. At Unea, I progressed from Junior to Mid-Level Developer, building full-stack applications with Next and GraphQL, while developing complex components and establishing CI/CD practices. My journey includes freelance web development and managing e-commerce platforms, where I initially discovered my passion for web development through WordPress and JavaScript."
+      "content": "Most recently, I worked as a Software Developer at the Alexander von Humboldt Institute, where I architected micro-frontend solutions and browser extensions for privacy management, conducting A/B testing focusing on consent conversion rates and optimizing user experiences. Previously at Hashtag-You, I focused on optimizing e-commerce platforms, improving performance and implementing features that enhanced conversion rates for a websites with high traffic and sales around 50 million euros anually, guaranteeing 100% uptime and no reported issues or bugs even on the high traffic days like Black Friday. At Unea, I progressed from Junior to Mid-Level Developer, building full-stack applications with React, Next and GraphQL, developing complex components and business tailored features, practicing domain driven design, test driven development, and learning to work Agile with a team of great developers, mentors, product managers and designers that helped me to grow as a professional developer. My journey includes freelance web development and managing e-commerce platforms, where I initially discovered my passion for web development through WordPress and JavaScript."
     }
   ],
   "experience": [
@@ -118,7 +119,7 @@
         "Monorepo (Turborepo)",
         "TypeScript",
         "React",
-        "Redux",
+        "Redux Toolkit and Sagas",
         "Tailwind CSS",
         "Plasmo (Browser Extension)",
         "Chrome APIs",
@@ -131,7 +132,7 @@
     },
     {
       "position": "Software Developer",
-      "company": "Hashtag-You",
+      "company": "Ava and May - Hashtag-You",
       "location": "Berlin",
       "period": "September 2023 - March 2024",
       "description": [
@@ -142,7 +143,16 @@
         "Delivered interactive and highly engaging landing page campaigns for marketing initiatives and product launches, utilizing a cutting-edge combination of React, JavaScript, and Liquid (Shopify's templating language). One standout campaign centred around a custom riddles mini-app that increased user engagement by an estimated 10% during the peak Christmas season.",
         "Engineered robust solutions that involved the integration and optimization of scripts for various Shopify apps. These critical improvements to ratings, reviews, and checkout extensions enhanced customer satisfaction at key steps. As a result, the website maintained 100% uptime, and there were no reported issues or bugs, allowing business operations to run smoothly even on high traffic days like Black Friday, and achieved as a solo developer."
       ],
-      "techStack": ["Shopify Storefronts", "Liquid (Shopify)", "JavaScript", "React", "Remix", "Shopify Apps", "SCSS"]
+      "techStack": [
+        "Shopify Storefronts",
+        "Liquid (Shopify)",
+        "JavaScript",
+        "React",
+        "Redux",
+        "Remix",
+        "Shopify Apps",
+        "SCSS"
+      ]
     },
     {
       "position": "Software Developer",
@@ -152,7 +162,8 @@
       "description": [
         "Architected and developed with the Lead and CTO the adoption of CI/CD best practices using GitHub Actions and Vercel, automating testing and deployment for Next.js applications. This improved development efficiency and release frequency.",
         "Progressed from Junior to Mid-Level Developer by building and documenting a significant part of the component library for the project. With great mentorship and support, I ended up owning complex features and demonstrating my skills developing full-stack Next.js applications with API routes, end-to-end type safety, middleware authentication with Apollo Server, and client-side data fetching with SWR (later replaced by ReactQuery).",
-        "Developed data cache-as-state (SWR) on top of the API requests, including the implementation of optimistic UI updates to provide a responsive and seamless user experience, particularly beneficial for the inline editing features in tables and scheduler components. Implemented MSW (Mock Service Worker) for API mocking during testing, allowing robust and reliable testing of components in isolation and enabling replacement of SWR with ReactQuery with more confidence.",
+        "Developed data cache-as-state (SWR) on top of the API requests, including the implementation of optimistic UI updates to provide a responsive and seamless user experience, particularly beneficial for the inline editing features in tables and scheduler components.",
+        "Implemented MSW (Mock Service Worker) for API mocking during testing, allowing robust and reliable testing of components in isolation and enabling replacement of SWR with ReactQuery with more confidence.",
         "Led the development of complex components and application features, including interactive dashboards, tables with inline editing, sidebars, and scheduler components (leveraging Bryntum Gantt and Scheduler), while seamlessly integrating these with the application's cache-first, optimistic state management system.",
         "Fostered close collaboration between backend developers, designers and PMs to align technical implementations with business requirements, ensuring rapid development cycles, frequent deployments, and optimal user experiences while maintaining code quality and adherence to design/architecture principles."
       ],

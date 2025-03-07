@@ -1,18 +1,19 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
+import { Raleway, Lora } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Header } from '@/components/ui/header';
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
+const raleway = Raleway({
+  subsets: ['latin'],
+  variable: '--font-raleway',
+  display: 'swap',
 });
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+
+const lora = Lora({
+  subsets: ['latin'],
+  variable: '--font-lora',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -27,17 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${raleway.variable} ${lora.variable} antialiased max-h-screen`}>
         <ThemeProvider defaultTheme='light' attribute='class' enableSystem disableTransitionOnChange>
-          <Header />
-          <main className='flex-1 bg-background'>{children}</main>
-          <footer className='py-6 md:px-8 md:py-0'>
-            <div className='container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row'>
-              <p className='text-center text-sm leading-loose  md:text-left'>
-                Built by Pedro Rodríguez. The source code is available on GitHub.
-              </p>
-            </div>
-          </footer>
+          <main className='flex-1 bg-background'>
+            <Header />
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

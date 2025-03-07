@@ -18,7 +18,7 @@ export default function DownloadPDFButton() {
 
   return (
     <Button asChild className='cursor-pointer' onClick={() => downloadPDF()} aria-label='Download PDF'>
-      <p className='text-secondary'>Download PDF</p>
+      <p className='text-secondary'>Download CV</p>
     </Button>
   );
 }
