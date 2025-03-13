@@ -202,14 +202,18 @@ export function Hero() {
           </motion.div>
 
           <div className='flex items-center justify-center gap-4'>
-            <Link href='https://github.com' target='_blank' rel='noopener noreferrer'>
+            <Link href='https://github.com/prsi-dev' target='_blank' rel='noopener noreferrer'>
               <motion.div variants={buttonHoverVariants} whileHover='hover' whileTap='tap'>
                 <Button variant={'outline'} size={'icon'}>
                   <Github className='h-5 w-5' />
                 </Button>
               </motion.div>
             </Link>
-            <Link href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
+            <Link
+              href='https://www.linkedin.com/in/pedro-rodriguez-suarez-infiesta-099b4966'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <motion.div variants={buttonHoverVariants} whileHover='hover' whileTap='tap'>
                 <Button variant={'outline'} size={'icon'}>
                   <Linkedin className='h-5 w-5' />
