@@ -79,7 +79,7 @@ export function AnimatedGridBackground() {
             duration: element.duration,
             repeat: Infinity,
             repeatType: 'loop',
-            ease: 'easeInOut',
+            ease: 'easeInOut' as const,
           }}
         />
       ))}

@@ -3,7 +3,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Mail, ChevronDown } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { AnimatedText } from '@/components/animations/animated-text';
 import { Button } from '@/components/ui/button';
 
@@ -145,7 +146,7 @@ export function Hero() {
       duration: 1.5,
       repeat: Infinity,
       repeatType: 'loop' as const,
-      ease: 'easeInOut',
+      ease: 'easeInOut' as const,
     },
   };
 
@@ -178,7 +179,7 @@ export function Hero() {
               exit={{ y: -40, opacity: 0 }}
               transition={{
                 duration: 1.2, // Slower transition between skills
-                ease: 'easeInOut', // Smoother easing
+                ease: 'easeInOut' as const, // Smoother easing
               }}
               className='flex items-center justify-center gap-2'
               style={{ willChange: 'transform, opacity', transform: 'translateZ(0)' }}
@@ -205,7 +206,7 @@ export function Hero() {
             <Link href='https://github.com/prsi-dev' target='_blank' rel='noopener noreferrer'>
               <motion.div variants={buttonHoverVariants} whileHover='hover' whileTap='tap'>
                 <Button variant={'outline'} size={'icon'}>
-                  <Github className='h-5 w-5' />
+                  <FaGithub className='h-5 w-5' />
                 </Button>
               </motion.div>
             </Link>
@@ -216,7 +217,7 @@ export function Hero() {
             >
               <motion.div variants={buttonHoverVariants} whileHover='hover' whileTap='tap'>
                 <Button variant={'outline'} size={'icon'}>
-                  <Linkedin className='h-5 w-5' />
+                  <FaLinkedin className='h-5 w-5' />
                 </Button>
               </motion.div>
             </Link>

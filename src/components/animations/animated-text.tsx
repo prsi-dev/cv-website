@@ -37,7 +37,7 @@ export const AnimatedText: FC<AnimatedTextProps> = memo(({ text, animation = 'ty
         opacity: 1,
         y: 0,
         transition: {
-          type: 'spring',
+          type: 'spring' as const,
           damping: 15, // Increased damping for less computation
           stiffness: 80, // Reduced stiffness for smoother animation
         },
@@ -50,7 +50,7 @@ export const AnimatedText: FC<AnimatedTextProps> = memo(({ text, animation = 'ty
         opacity: 1,
         y: 0,
         transition: {
-          type: 'spring',
+          type: 'spring' as const,
           damping: 15,
           stiffness: 80,
         },
@@ -63,7 +63,7 @@ export const AnimatedText: FC<AnimatedTextProps> = memo(({ text, animation = 'ty
         opacity: 1,
         scale: 1,
         transition: {
-          type: 'spring',
+          type: 'spring' as const,
           damping: 15,
           stiffness: 80,
         },
