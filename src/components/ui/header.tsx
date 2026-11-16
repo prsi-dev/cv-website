@@ -35,7 +35,7 @@ export function Header() {
       }}
       transition={{
         duration: 0.3,
-        ease: 'easeInOut',
+        ease: 'easeInOut' as const,
       }}
     >
       <div className='flex h-14 items-center justify-end sm:justify-between flex-grow w-full px-6'>

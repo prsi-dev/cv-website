@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' suppressHydrationWarning>
       <body className={`${raleway.variable} ${lora.variable} antialiased max-h-screen`}>
         <ThemeProvider defaultTheme='light' attribute='class' enableSystem disableTransitionOnChange>
           <main className='flex-1 bg-background'>

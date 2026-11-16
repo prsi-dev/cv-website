@@ -39,7 +39,7 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
       y: 0,
       transition: {
         duration: 0.7,
-        ease: 'easeOut',
+        ease: 'easeOut' as const,
       },
     },
   };
@@ -50,7 +50,7 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
         className='font-heading fluid-text-2xl font-bold mb-8 text-primary'
         initial={{ opacity: 0, y: -20 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
+        transition={{ duration: 0.6, ease: 'easeOut' as const }}
       >
         Experience
       </motion.h2>
